@@ -5,7 +5,7 @@ date: 2026-10-07
 paper_authors: "Y. Liu, Y. Xiao, X. Zhang et al."
 paper_venue: "NSDI 2025"
 paper_url: "https://www.usenix.org/conference/nsdi25/presentation/liu-yadong"
-week: 1
+week: 2
 tags: [data-center fabrics, ecmp, multi-path routing]
 ---
 
@@ -17,4 +17,4 @@ The one-year Tencent deployment is the most convincing part, as it showed that o
 However, the premise that ECMP groups sit unused is measured only in Tencent's DCN, which undermines the generalizabilty of the paper's proposal. 
 
 ## Connections
-This paper discusses silent packet drops, where only flows hashed onto a bad path are impacted. This is analogous to the notion of "peninsulas" in  [Baltra et al.,](/cs440-blog/2026/09/28/partial-reachability/), in the sense that reachability depends on which path you take, leading to partial failures getting missed in aggregate health checks. It's interesting hwo the lack of observability is a recurring theme in many of the papers we've read so far. 
+This paper discusses silent packet drops, where only flows hashed onto a bad path are impacted. This is analogous to the notion of "peninsulas" in  [Baltra et al.,](/cs440-blog/2026/09/30/partial-reachability/), in the sense that reachability depends on which path you take, leading to partial failures getting missed in aggregate health checks. It's interesting hwo the lack of observability is a recurring theme in many of the papers we've read so far. 
